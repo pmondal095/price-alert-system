@@ -1,4 +1,4 @@
-const { sendEmailNotification } = require("./emailHelper");
+const { sendEmailNotification } = require("./sendEmailAlert");
 const { sendSMSNotification } = require("./sendSMSAlert");
 
 exports.notificationHandler = async (job, done) => {
